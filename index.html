@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Papper Scissor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div class="showHide">
+            <div class="letsplay">Lets Play! 🥰 </div>
+            <div id="oki">OK</div>
+            <div id="cpr">copyright@2022 by pyae phyo thant</div>
+        </div>
+            
+    </div>
+    <div id="container">
+        <h1>Rock Papper Scissor Game
+            <i class="fa-solid fa-gamepad gameicon handShape"></i>
+            <i class="fa-regular fa-hand-back-fist handShape"></i>
+            <i class="fa-regular fa-hand handShape"></i>
+            <i class="fa-regular fa-hand-scissors handShape"></i></h1>
+        <audio src="musics/Just for Laughs - Soundtrack 16(MP3_320K).mp3" id="audioTag"></audio>
+        <h2>Computer Choice : <span id="computer-choice"></span></h2>
+        <h2>Your Choice : <span id="your-choice"></span></h2>
+        <h2>Result : <span id="result" ></span></h2>
+
+        <div class="button-container">
+            <button id="rock">Rock</button>
+            <button id="papper">Papper</button>
+            <button id="scissor">Scissor</button>
+            <div id="reset">Reset</div>
+            <i class="fa-solid fa-volume-high vol1" id="msc"></i>
+            <i class="fa-solid fa-volume-xmark vol2" id="msc"></i>
+               
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
